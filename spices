@@ -1,0 +1,224 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Spice Store - Kashmir Spices</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      margin: 0;
+      background-color: #fffdf7;
+    }
+    header {
+      background-color: #8b0000;
+      color: white;
+      padding: 20px;
+      text-align: center;
+    }
+    nav {
+      background-color: #f3e4d7;
+      padding: 10px;
+      text-align: center;
+    }
+    nav a {
+      margin: 0 15px;
+      color: #8b0000;
+      text-decoration: none;
+      font-weight: bold;
+    }
+    .container {
+      padding: 20px;
+    }
+    .product-grid {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 20px;
+      justify-content: center;
+    }
+    .product {
+      background-color: white;
+      border: 1px solid #ddd;
+      border-radius: 8px;
+      padding: 15px;
+      width: 220px;
+      text-align: center;
+    }
+    .product img {
+      width: 100%;
+      height: 150px;
+      object-fit: cover;
+      border-radius: 5px;
+    }
+    .product h3 {
+      margin: 10px 0 5px;
+    }
+    .product p {
+      margin: 5px 0;
+      font-weight: bold;
+    }
+    .buy-button {
+      background-color: #8b0000;
+      color: white;
+      padding: 8px 15px;
+      border: none;
+      border-radius: 5px;
+      cursor: pointer;
+    }
+    footer {
+      background-color: #8b0000;
+      color: white;
+      text-align: center;
+      padding: 15px;
+      margin-top: 30px;
+    }
+  </style>
+</head>
+<body>
+
+  <header>
+    <h1>Kashmir Spices</h1>
+    <p>Fresh & Pure Spices from the Heart of Kashmir</p>
+  </header>
+
+  <nav>
+    <a href="#">Home</a>
+    <a href="#">Products</a>
+    <a href="#">About</a>
+    <a href="#">Contact</a>
+  </nav>
+
+  <div class="container">
+    <h2 style="text-align:center;">Our Best-Selling Spices</h2>
+    <div class="product-grid">
+      <div class="product">
+        <img src="https://via.placeholder.com/200x150" alt="Saffron">
+        <h3>Kashmiri Saffron</h3>
+        <p>₹500 / 1g</p>
+        <button class="buy-button">Buy Now</button>
+      </div>
+      <div class="product">
+        <img src="https://via.placeholder.com/200x150" alt="Dry Ginger">
+        <h3>Dry Ginger Powder</h3>
+        <p>₹150 / 100g</p>
+        <button class="buy-button">Buy Now</button>
+      </div>
+      <div class="product">
+        <img src="https://via.placeholder.com/200x150" alt="Cardamom">
+        <h3>Green Cardamom</h3>
+        <p>₹300 / 100g</p>
+        <button class="buy-button">Buy Now</button>
+      </div>
+      <div class="product">
+        <img src="https://via.placeholder.com/200x150" alt="Turmeric">
+        <h3>Organic Turmeric</h3>
+        <p>₹120 / 100g</p>
+        <button class="buy-button">Buy Now</button>
+      </div>
+    </div>
+  </div>
+
+  <footer>
+    <p>&copy; 2025 Kashmir Spices. All Rights Reserved.</p>
+    <p>Email: contact@kashmirspices.com | Phone: +91-8899024397</p>
+  </footer>
+
+</body>
+</html>
+/* General Styles */
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  background-color: #fffdf7;
+}
+
+h2 {
+  text-align: center;
+  color: #4d2600;
+}
+
+/* Header */
+header {
+  background-color: #8b0000;
+  color: white;
+  padding: 20px;
+  text-align: center;
+}
+
+/* Navigation */
+nav {
+  background-color: #f3e4d7;
+  padding: 10px;
+  text-align: center;
+}
+
+nav a {
+  margin: 0 15px;
+  color: #8b0000;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+/* Container */
+.container {
+  padding: 20px;
+}
+
+/* Product Grid */
+.product-grid {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 20px;
+  justify-content: center;
+}
+
+.product {
+  background-color: white;
+  border: 1px solid #ddd;
+  border-radius: 8px;
+  padding: 15px;
+  width: 220px;
+  text-align: center;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.05);
+}
+
+.product img {
+  width: 100%;
+  height: 150px;
+  object-fit: cover;
+  border-radius: 5px;
+}
+
+.product h3 {
+  margin: 10px 0 5px;
+  color: #333;
+}
+
+.product p {
+  margin: 5px 0;
+  font-weight: bold;
+  color: #444;
+}
+
+/* Buy Button */
+.buy-button {
+  background-color: #8b0000;
+  color: white;
+  padding: 8px 15px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  margin-top: 10px;
+}
+
+.buy-button:hover {
+  background-color: #a50000;
+}
+
+/* Footer */
+footer {
+  background-color: #8b0000;
+  color: white;
+  text-align: center;
+  padding: 15px;
+  margin-top: 30px;
+}
